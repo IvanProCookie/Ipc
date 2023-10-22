@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Linktree Page</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #2784c2; /* Slightly darker blue */
+        }
+
+        /* Profile Section */
+        .profile {
+            margin: 20px;
+            background-color: #3498db; /* Popup blue */
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .profile img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        .profile h1 {
+            font-size: 24px;
+            color: #fff; /* White */
+        }
+
+        .profile p {
+            font-size: 16px;
+            color: #fff; /* White */
+            text-align: left;
+        }
+
+        /* Links Section */
+        .links {
+            margin: 20px;
+        }
+
+        .link-box {
+            background-color: #3498db; /* Popup blue */
+            border-radius: 20px;
+            margin: 10px 0;
+            padding: 10px;
+        }
+
+        .link-box a {
+            display: block;
+            text-decoration: none;
+            color: #fff; /* White */
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .link-box a:hover {
+            color: #ff5733; /* Hover color */
+        }
+    </style>
+</head>
+<body>
+    <div class="profile">
+        <img src="profile-image.jpg" alt="Profile Image">
+        <h1>Ivanprocookie</h1>
+        <p>
+            Hello<br>
+            My Name Is Ivan<br>
+            My Username For Everything Is "Ivanprocookie"<br>
+            I like Minecraft, Geometry Dash, Art, Music, And More<br>
+            I Am A Furry<br>
+            I am 🏳️‍🌈Questioning 🏳️‍🌈 & 🏳️‍🌈~20% Gay🏳️‍🌈
+        </p>
+    </div>
+    <div class="links">
+        <div class="link-box">
+            <a href="https://www.google.com">Google</a>
+        </div>
+        <div class="link-box">
+            <a href="https://www.twitter.com">Twitter</a>
+        </div>
+        <div class="link-box">
+            <a href="https://www.example.com">Example</a>
+        </div>
+        <div class="link-box">
+            <a href="https://www.test.com">Test</a>
+        </div>
+        <div class="link-box">
+            <a href="https://www.random.com">Random 1</a>
+        </div>
+        <div class="link-box">
+            <a href="https://www.random2.com">Random 2</a>
+        </div>
+    </div>
+</body>
+</html>
